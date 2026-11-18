@@ -1,12 +1,11 @@
 package main
+
 import "fmt"
 
-func calc(x, y int)(sum, dif int){
-	sum = x + y
-	dif = x - y
-	return
-}
+var version float32 = 1.0
 
 func main(){
-	fmt.Println(calc(30, 15))
+	name, year := "go", 2009
+	fmt.Println(version, name, year)
+	
 }
