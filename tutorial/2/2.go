@@ -1,10 +1,10 @@
 package main
+import "fmt"
 
-import (
-	"fmt"
-	"math/rand"
-)
+func sub(x int, y int) int { 
+	return x - y
+}
 
 func main(){
-	fmt.Println(rand.Intn(10))
+	fmt.Println(sub(30, 15))
 }
